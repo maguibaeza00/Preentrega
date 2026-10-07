@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 1 rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background: rgb(255, 231, 211);
+  color: rgb(115, 81, 50);
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 3rem 0;
+}
+
+h2 {
+  color: rgb(145, 101, 57);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.btn {
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+
+header,
+footer {
+  background: rgb(199, 178, 160);
+  color: rgb(244, 227, 211);
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  padding: 1rem 4rem;
+}
+
+.div-logo {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.logo,
+.header-nav a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: inherit;
+}
+
+.header-nav {
+  margin-right: 2rem;
+}
+
+.header-nav ul,
+footer .footer-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-list {
+  padding: 1rem;
+}
+
+.footer-list img {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+.bg-primary {
+  background-color: rgb(174, 150, 134);
+}
+
+.bg-secondary {
+  background-color: rgb(177, 158, 138);
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inicio h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.parrafo {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  background-color: rgb(241, 220, 196);
+  width: 40rem;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-contacto {
+  margin: 2rem 0;
+}
+
+.form-contacto {
+  background-color: rgb(241, 220, 196);
+  color: rgb(74, 41, 13);
+
+  width: 100%;
+  max-width: 50rem;
+
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
